@@ -1,0 +1,30 @@
+button {
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 1rem 2rem;
+	max-width: 100%;
+	min-width: 20rem;
+	background-color: $grey;
+	border: 0;
+}
+
+button:hover {
+background-color: $light-grey;
+	cursor: pointer;
+}
+
+button:active,
+button:focus {
+	background-color: $light-grey;
+}
+
+button.large {
+	font-size: 4rem;
+	width: 40rem;
+}
+
+button#parking-selected {
+	display: none;
+	margin-top: 2rem;
+}
